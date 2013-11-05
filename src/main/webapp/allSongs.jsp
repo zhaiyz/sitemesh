@@ -18,15 +18,15 @@
     				<li style="float: left; width: 100px;">歌名</li>
     				<li style="float: left; width: 100px;">歌手</li>
     				<li style="float: left; width: 100px;">时长</li>
-    				<div style="clear: both;"></div>
     			</ul>
+    			<div style="clear: both;"></div>
     			<s:iterator value="allSongs">
     				<ul style="list-style:none">
     					<li style="float: left; width: 100px;"><s:property value="name"/></li>
     					<li style="float: left; width: 100px;"><s:property value="singer"/></li>
     					<li style="float: left; width: 100px;"><s:property value="time"/></li>
-    					<div style="clear: both;"></div>
     				</ul>
+    				<div style="clear: both;"></div>
     			</s:iterator>
     		</div>
     		<br/>
